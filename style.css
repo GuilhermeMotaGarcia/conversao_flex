@@ -1,12 +1,61 @@
 body {
-    background-color: rgb(12, 11, 11);
+    margin: 0;
+    padding: 0;
+    background-color: rgba(216, 216, 216, 0.479);
 }
 
+header, footer {
+    font-weight: 20px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
 main {
+    margin: 500px, 0;
     display: flex;
 }
 
-.conversor {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+div {
+    width: 22%;
+    background-color: #fff;
+    margin-top: auto;
+    margin-bottom: auto; 
+    padding: 1%;
+    border-radius: 3px;
+}
+
+.conversor-1 {
+    margin-left: auto;
+    margin-right: 1%;
+}
+
+.conversor-2 {
+    margin-left: 1%;
+    margin-right: auto;
+}
+.conversor-label {
+    display: block;
+    margin-bottom: 3px;
+    border-radius: 3px;
+}
+
+#input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px; 
+    border-radius: 3px;
+}
+
+#botao-converte {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 3px;
+    border-radius: 3px;
 }
