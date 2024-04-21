@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(12, 11, 11);
+}
+
+main {
+    display: flex;
+}
+
+.conversor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
